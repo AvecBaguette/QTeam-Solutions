@@ -18,21 +18,18 @@
 
     <dependencies>
 
-        <!-- ✅ Appium (stable, no Selenium 4 issues) -->
         <dependency>
             <groupId>io.appium</groupId>
             <artifactId>java-client</artifactId>
             <version>7.6.0</version>
         </dependency>
 
-        <!-- ✅ Selenium 3 (ContextAware exists here) -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.141.59</version>
         </dependency>
 
-        <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
